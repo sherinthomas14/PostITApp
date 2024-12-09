@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the UI snapshot with screen.debug() 1`] = `
+<div>
+  <div>
+    <div
+      class="container"
+    >
+      <form
+        class=""
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-3"
+          >
+            <img
+              src="logo-t.png"
+            />
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-3"
+          >
+            <div
+              class="mb-3"
+            >
+              <label
+                class="form-label"
+                for="email"
+              >
+                Email
+              </label>
+              <input
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Enter email..."
+                type="email"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-3"
+          >
+            <div
+              class="mb-3"
+            >
+              <label
+                class="form-label"
+                for="password"
+              >
+                Password
+              </label>
+              <input
+                class="form-control"
+                id="password"
+                name="password"
+                placeholder="Enter password..."
+                type="password"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-3"
+          >
+            <button
+              class="btn btn-secondary"
+              type="button"
+            >
+               Login 
+            </button>
+          </div>
+        </div>
+      </form>
+      <p
+        class="smalltext"
+      >
+        No Account? 
+        <a
+          href="/register"
+        >
+          Sign Up now.
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+`;
